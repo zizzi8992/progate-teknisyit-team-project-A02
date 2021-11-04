@@ -1,0 +1,1488 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav {
+  background-color: rgb(107, 185, 240);
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.tags a {
+  padding: 20px 0.5rem 20px 0.5rem;
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  transition: background-color 50ms ease-in-out;
+}
+
+.tags {
+  padding-right: 1rem;
+}
+
+.tags a:hover {
+  background-color: hsl(205, 82%, 50%);
+}
+
+.logo-indonesia img {
+  margin-left: 1rem;
+  width: 80px;
+}
+
+.welcome-body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-body h1 {
+  font-size: 48px;
+  padding-left: 2rem;
+  text-align: center;
+  animation: wavy 2s ease-in-out infinite;
+}
+
+.welcome-body h2 {
+  font-size: 36px;
+  padding-right: 2rem;
+}
+
+.city {
+  max-width: 100%;
+  height: 100vh;
+}
+/*SECTION BOGOR*/
+#bogor {
+  background: linear-gradient(
+    90deg,
+    rgba(25, 181, 254, 1) 6%,
+    rgba(52, 152, 219, 1) 29%,
+    rgba(37, 116, 169, 1) 100%
+  );
+  height: 120vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bogor-wrapper {
+  width: 30%;
+  padding-left: 5rem;
+}
+
+#container-desc-bogor {
+  text-align: justify;
+}
+
+#container-desc-bogor h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+#container-wisata-bogor {
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+#container-pic-bogor {
+  padding-right: 5rem;
+}
+
+#container-pic-bogor img {
+  padding-right: 1rem;
+}
+
+#bogor1 {
+  height: 15rem;
+}
+
+#bogor2 {
+  height: 15rem;
+}
+
+#bogor3 {
+  height: 15rem;
+}
+svg {
+  position: absolute;
+  top: 174.5%;
+}
+/*END SECTION BOGOR*/
+
+/*SECTION PASURUAN*/
+#pasuruan {
+  background: linear-gradient(
+    90deg,
+    rgba(25, 181, 254, 1) 6%,
+    rgba(52, 152, 219, 1) 29%,
+    rgba(37, 116, 169, 1) 100%
+  );
+  height: 120vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pasuruan-wrapper {
+  width: 30%;
+  padding-left: 5rem;
+}
+
+#container-desc-pasuruan {
+  text-align: justify;
+}
+
+#container-desc-pasuruan h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+#container-wisata-pasuruan {
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+#container-pic-pasuruan {
+  padding-right: 5rem;
+}
+
+#container-pic-pasuruan img {
+  padding-right: 1rem;
+}
+
+#pasuruan1 {
+  height: 15rem;
+}
+
+#pasuruan2 {
+  height: 15rem;
+}
+
+
+svg {
+  position: absolute;
+  top: 174.5%;
+}
+/*END SECTION PASURUAN*/
+
+#svg-top {
+  position: absolute;
+  transform: rotate(180deg);
+  top: 100%;
+}
+
+.footer {
+  background-color: #b16b2f;
+  color: #fff;
+  height: 80px;
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-size: 32px;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+@keyframes wavy {
+  0% {
+    transform: translateY(-25%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-25%);
+  }
+}
+
+@media (min-width: 1900px) {
+  /*RESPONSIVE 1 BOGOR*/
+  #bogor-wrapper {
+    width: 40%;
+  }
+  #container-desc-bogor {
+    font-size: 24px;
+  }
+  #container-wisata-bogor {
+    font-size: 24px;
+  }
+  #container-pic-bogor {
+    display: flex;
+    align-items: center;
+  }
+  #bogor1 {
+    height: 15rem;
+  }
+  #bogor2 {
+    height: 20rem;
+  }
+  #bogor3 {
+    height: 20rem;
+  }
+  svg {
+    position: absolute;
+    top: 176.5%;
+  }
+  /*END*/
+
+  /*RESPONSIVE 1 PASURUAN*/
+  #pasuruan-wrapper {
+    width: 40%;
+  }
+  #container-desc-pasuruan {
+    font-size: 24px;
+  }
+  #container-wisata-pasuruan {
+    font-size: 24px;
+  }
+  #container-pic-pasuruan {
+    display: flex;
+    align-items: center;
+  }
+  #pasuruan1 {
+    height: 15rem;
+  }
+  #pasuruan2 {
+    height: 20rem;
+  }
+  svg {
+    position: absolute;
+    top: 176.5%;
+  }
+  /*END*/
+
+  #svg-top {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  /*RESPONSIVE 2 BOGOR*/
+  #container-desc-bogor {
+    font-size: 12px;
+  }
+  #container-desc-bogor h2 {
+    font-size: 24px;
+  }
+  #container-wisata-bogor {
+    font-size: 12px;
+  }
+  #bogor1 {
+    height: 10rem;
+  }
+  #bogor2 {
+    height: 10rem;
+  }
+  #bogor3 {
+    height: 10rem;
+  }
+  /*END*/
+
+  /*RESPONSIVE 2 PASURUAN*/
+   #container-desc-pasuruan {
+    font-size: 12px;
+  }
+  #container-desc-pasuruan h2 {
+    font-size: 24px;
+  }
+  #container-wisata-pasuruan {
+    font-size: 12px;
+  }
+  #pasuruan1 {
+    height: 10rem;
+  }
+  #pasuruan2 {
+    height: 10rem;
+  }
+  /*END*/
+}
+
+@media (max-width: 1000px) {
+  .tags a {
+    width: 80px;
+  }
+  .welcome-body {
+    background-position: center;
+  }
+  .welcome-body h1 {
+    font-size: 30px;
+  }
+  .welcome-body h2 {
+    font-size: 24px;
+  }
+  /*RESPONSIVE 3 BOGOR*/
+  #bogor {
+    flex-direction: column;
+    justify-content: center;
+    height: 250vh;
+  }
+  #container-desc-bogor {
+    font-size: 14px;
+  }
+  #container-desc-bogor h2 {
+    font-size: 24px;
+  }
+  #container-wisata-bogor {
+    font-size: 14px;
+  }
+  #bogor1 {
+    height: 12rem;
+  }
+  #bogor2 {
+    height: 12rem;
+  }
+  #bogor3 {
+    height: 12rem;
+  }
+  #bogor-wrapper {
+    width: 75%;
+    padding: 0;
+  }
+  #container-pic-bogor {
+    margin: 0 auto;
+    padding-right: 0;
+  }
+  #container-pic-bogor img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 1rem;
+  }
+  /*END*/
+
+  /*RESPONSIVE 3 PASURUAN*/
+  #pasuruan {
+    flex-direction: column;
+    justify-content: center;
+    height: 250vh;
+  }
+  #container-desc-pasuruan {
+    font-size: 14px;
+  }
+  #container-desc-pasuruan h2 {
+    font-size: 24px;
+  }
+  #container-wisata-pasuruan {
+    font-size: 14px;
+  }
+  #pasuruan1 {
+    height: 12rem;
+  }
+  #pasuruan2 {
+    height: 12rem;
+  }
+  #pasuruan-wrapper {
+    width: 75%;
+    padding: 0;
+  }
+  #container-pic-pasuruan {
+    margin: 0 auto;
+    padding-right: 0;
+  }
+  #container-pic-pasuruan img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 1rem;
+  }
+  /*END*/
+  #svg-bot {
+    top: 313.3%;
+  }
+  .footer-logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 670px) {
+  nav {
+    display: none;
+  }
+  .welcome-body {
+    background-position: center;
+    flex-direction: column;
+  }
+  .welcome-body h1 {
+    font-size: 24px;
+    padding: 8rem 0 0 0;
+  }
+  .welcome-body h2 {
+    font-size: 16px;
+    padding: 0 0 10rem 0;
+    text-align: center;
+  }
+  /*RESPONSIVE 4 BOGOR*/
+  #bogor {
+    height: 200vh;
+  }
+  #svg-bot {
+    top: 337.6%;
+  }
+  #bogor1 {
+    height: 10rem;
+  }
+  #bogor2 {
+    height: 10rem;
+  }
+  #bogor3 {
+    height: 10rem;
+  }
+  /*END*/
+
+  /*RESPONSIVE 4 PASURUAN*/
+   #pasuruan {
+    height: 200vh;
+  }
+  #svg-bot {
+    top: 337.6%;
+  }
+  #pasuruan1 {
+    height: 10rem;
+  }
+  #pasuruan2 {
+    height: 10rem;
+  }
+  /*END*/
+  .footer-logo {
+    font-size: 20px;
+  }
+  .footer {
+    padding: 40px 10px 40px 10px;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav {
+  background-color: rgb(107, 185, 240);
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.tags a {
+  padding: 20px 0.5rem 20px 0.5rem;
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  transition: background-color 50ms ease-in-out;
+}
+
+.tags {
+  padding-right: 1rem;
+}
+
+.tags a:hover {
+  background-color: hsl(205, 82%, 50%);
+}
+
+.logo-indonesia img {
+  margin-left: 1rem;
+  width: 80px;
+}
+
+.welcome-body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-body h1 {
+  font-size: 48px;
+  padding-left: 2rem;
+  text-align: center;
+  animation: wavy 2s ease-in-out infinite;
+}
+
+.welcome-body h2 {
+  font-size: 36px;
+  padding-right: 2rem;
+}
+
+.city {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.city p {
+  font-size: 12px;
+}
+#bali {
+  background: linear-gradient(90deg, rgba(25, 181, 254, 1) 6%, rgba(52, 152, 219, 1) 29%, rgba(37, 116, 169, 1) 100%);
+  height: 120vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bali-wrapper {
+  width: 30%;
+  padding-left: 5rem;
+}
+
+#container-desc-bali {
+  text-align: justify;
+}
+
+#container-desc-bali h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+#container-wisata-bali {
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+#container-pic-bali {
+  padding-right: 5rem;
+}
+
+#container-pic-bali img {
+  padding-right: 1rem;
+}
+
+#bali1 {
+  height: 15rem;
+  width: 17rem;
+}
+
+#bali2 {
+  height: 15rem;
+  width: 17rem;
+}
+
+#bali3 {
+  height: 15rem;
+}
+
+svg {
+  position: absolute;
+  top: 174.5%;
+}
+
+#svg-top {
+  position: absolute;
+  transform: rotate(180deg);
+  top: 100%;
+}
+
+.footer {
+  background-color: #b16b2f;
+  color: #fff;
+  height: 80px;
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-size: 32px;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+@keyframes wavy {
+  0% {
+    transform: translateY(-25%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-25%);
+  }
+}
+
+@media (min-width: 1900px) {
+  #bali-wrapper {
+    width: 40%;
+  }
+  #container-desc-bali {
+    font-size: 24px;
+  }
+  #container-wisata-bali {
+    font-size: 24px;
+  }
+  #container-pic-bali {
+    display: flex;
+    align-items: center;
+  }
+  #bali1 {
+    height: 15rem;
+  }
+  #bali2 {
+    height: 20rem;
+  }
+  #bali3 {
+    height: 20rem;
+  }
+  svg {
+    position: absolute;
+    top: 176.5%;
+  }
+
+  #svg-top {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  #container-desc-bali {
+    font-size: 12px;
+  }
+  #container-desc-bali h2 {
+    font-size: 24px;
+  }
+  #container-wisata-bali {
+    font-size: 12px;
+  }
+  #bali1 {
+    height: 10rem;
+  }
+  #bali2 {
+    height: 10rem;
+  }
+  #bali3 {
+    height: 10rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tags a {
+    width: 80px;
+  }
+  .welcome-body {
+    background-position: center;
+  }
+  .welcome-body h1 {
+    font-size: 30px;
+  }
+  .welcome-body h2 {
+    font-size: 24px;
+  }
+  #bali {
+    flex-direction: column;
+    justify-content: center;
+    height: 250vh;
+  }
+  #container-desc-bali {
+    font-size: 14px;
+  }
+  #container-desc-bali h2 {
+    font-size: 24px;
+  }
+  #container-wisata-bali {
+    font-size: 14px;
+  }
+  #bali1 {
+    height: 12rem;
+  }
+  #bali2 {
+    height: 12rem;
+  }
+  #bali3 {
+    height: 12rem;
+  }
+  #bali-wrapper {
+    width: 75%;
+    padding: 0;
+  }
+  #container-pic-bali {
+    margin: 0 auto;
+    padding-right: 0;
+  }
+  #container-pic-bali img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 1rem;
+  }
+  #svg-bot {
+    top: 313.3%;
+  }
+  .footer-logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 670px) {
+  nav {
+    display: none;
+  }
+  .welcome-body {
+    background-position: center;
+    flex-direction: column;
+  }
+  .welcome-body h1 {
+    font-size: 24px;
+    padding: 8rem 0 0 0;
+  }
+  .welcome-body h2 {
+    font-size: 16px;
+    padding: 0 0 10rem 0;
+    text-align: center;
+  }
+  #bali {
+    height: 200vh;
+  }
+  #svg-bot {
+    top: 337.6%;
+  }
+  #bali1 {
+    height: 10rem;
+  }
+  #bali2 {
+    height: 10rem;
+  }
+  #bali3 {
+    height: 10rem;
+  }
+  .footer-logo {
+    font-size: 20px;
+  }
+  .footer {
+    padding: 40px 10px 40px 10px;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav {
+  background-color: rgb(107, 185, 240);
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.tags a {
+  padding: 20px 0.5rem 20px 0.5rem;
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  transition: background-color 50ms ease-in-out;
+}
+
+.tags {
+  padding-right: 1rem;
+}
+
+.tags a:hover {
+  background-color: hsl(205, 82%, 50%);
+}
+
+.logo-indonesia img {
+  margin-left: 1rem;
+  width: 80px;
+}
+
+.welcome-body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-body h1 {
+  font-size: 48px;
+  padding-left: 2rem;
+  text-align: center;
+  animation: wavy 2s ease-in-out infinite;
+}
+
+.welcome-body h2 {
+  font-size: 36px;
+  padding-right: 2rem;
+}
+
+.city {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.city p {
+  font-size: 12px;
+}
+#lampung {
+  background: linear-gradient(90deg, rgba(25, 181, 254, 1) 6%, rgba(52, 152, 219, 1) 29%, rgba(37, 116, 169, 1) 100%);
+  height: 120vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lampung-wrapper {
+  width: 30%;
+  padding-left: 5rem;
+}
+
+#container-desc-lampung {
+  text-align: justify;
+}
+
+#container-desc-lampung h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+#container-wisata-lampung {
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+#container-pic-lampung {
+  padding-right: 5rem;
+}
+
+#container-pic-lampung img {
+  padding-right: 1rem;
+}
+
+#lampung1 {
+  height: 15rem;
+  width: 17rem;
+}
+
+#lampung2 {
+  height: 15rem;
+  width: 17rem;
+}
+
+#lampung3 {
+  height: 15rem;
+}
+
+svg {
+  position: absolute;
+  top: 174.5%;
+}
+
+#svg-top {
+  position: absolute;
+  transform: rotate(180deg);
+  top: 100%;
+}
+
+.footer {
+  background-color: #b16b2f;
+  color: #fff;
+  height: 80px;
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-size: 32px;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+@keyframes wavy {
+  0% {
+    transform: translateY(-25%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-25%);
+  }
+}
+
+@media (min-width: 1900px) {
+  #lampung-wrapper {
+    width: 40%;
+  }
+  #container-desc-lampung {
+    font-size: 24px;
+  }
+  #container-wisata-lampung {
+    font-size: 24px;
+  }
+  #container-pic-lampung {
+    display: flex;
+    align-items: center;
+  }
+  #lampung1 {
+    height: 15rem;
+  }
+  #lampung2 {
+    height: 20rem;
+  }
+  #lampung3 {
+    height: 20rem;
+  }
+  svg {
+    position: absolute;
+    top: 176.5%;
+  }
+
+  #svg-top {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  #container-desc-lampung {
+    font-size: 12px;
+  }
+  #container-desc-lampung h2 {
+    font-size: 24px;
+  }
+  #container-wisata-lampung {
+    font-size: 12px;
+  }
+  #lampung1 {
+    height: 10rem;
+  }
+  #lampung2 {
+    height: 10rem;
+  }
+  #lampung3 {
+    height: 10rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tags a {
+    width: 80px;
+  }
+  .welcome-body {
+    background-position: center;
+  }
+  .welcome-body h1 {
+    font-size: 30px;
+  }
+  .welcome-body h2 {
+    font-size: 24px;
+  }
+  #lampung {
+    flex-direction: column;
+    justify-content: center;
+    height: 250vh;
+  }
+  #container-desc-lampung {
+    font-size: 14px;
+  }
+  #container-desc-lampung h2 {
+    font-size: 24px;
+  }
+  #container-wisata-lampung {
+    font-size: 14px;
+  }
+  #lampung1 {
+    height: 12rem;
+  }
+  #lampung2 {
+    height: 12rem;
+  }
+  #lampung3 {
+    height: 12rem;
+  }
+  #lampung-wrapper {
+    width: 75%;
+    padding: 0;
+  }
+  #container-pic-lampung {
+    margin: 0 auto;
+    padding-right: 0;
+  }
+  #container-pic-lampung img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 1rem;
+  }
+  #svg-bot {
+    top: 313.3%;
+  }
+  .footer-logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 670px) {
+  nav {
+    display: none;
+  }
+  .welcome-body {
+    background-position: center;
+    flex-direction: column;
+  }
+  .welcome-body h1 {
+    font-size: 24px;
+    padding: 8rem 0 0 0;
+  }
+  .welcome-body h2 {
+    font-size: 16px;
+    padding: 0 0 10rem 0;
+    text-align: center;
+  }
+  #lampung {
+    height: 200vh;
+  }
+  #svg-bot {
+    top: 337.6%;
+  }
+  #lampung1 {
+    height: 10rem;
+  }
+  #lampung2 {
+    height: 10rem;
+  }
+  #lampung3 {
+    height: 10rem;
+  }
+  .footer-logo {
+    font-size: 20px;
+  }
+  .footer {
+    padding: 40px 10px 40px 10px;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav {
+  background-color: rgb(107, 185, 240);
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.tags a {
+  padding: 20px 0.5rem 20px 0.5rem;
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  transition: background-color 50ms ease-in-out;
+}
+
+.tags {
+  padding-right: 1rem;
+}
+
+.tags a:hover {
+  background-color: hsl(205, 82%, 50%);
+}
+
+.logo-indonesia img {
+  margin-left: 1rem;
+  width: 80px;
+}
+
+.welcome-body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1501179691627-eeaa65ea017c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-body h1 {
+  font-size: 48px;
+  padding-left: 2rem;
+  text-align: center;
+  animation: wavy 2s ease-in-out infinite;
+}
+
+.welcome-body h2 {
+  font-size: 36px;
+  padding-right: 2rem;
+}
+
+.city {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.city p {
+  font-size: 12px;
+}
+#makassar {
+  background: linear-gradient(90deg, rgba(25, 181, 254, 1) 6%, rgba(52, 152, 219, 1) 29%, rgba(37, 116, 169, 1) 100%);
+  height: 120vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#makassar-wrapper {
+  width: 30%;
+  padding-left: 5rem;
+}
+
+#container-desc-makassar {
+  text-align: justify;
+}
+
+#container-desc-makassar h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+#container-wisata-makassar {
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+#container-pic-makassar {
+  padding-right: 5rem;
+}
+
+#container-pic-makassar img {
+  padding-right: 1rem;
+}
+
+#makassar1 {
+  height: 15rem;
+  width: 17rem;
+}
+
+#makassar2 {
+  height: 15rem;
+  width: 17rem;
+}
+
+#makassar3 {
+  height: 15rem;
+}
+
+svg {
+  position: absolute;
+  top: 174.5%;
+}
+
+#svg-top {
+  position: absolute;
+  transform: rotate(180deg);
+  top: 100%;
+}
+
+.footer {
+  background-color: #b16b2f;
+  color: #fff;
+  height: 80px;
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-size: 32px;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+@keyframes wavy {
+  0% {
+    transform: translateY(-25%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-25%);
+  }
+}
+
+@media (min-width: 1900px) {
+  #makassar-wrapper {
+    width: 40%;
+  }
+  #container-desc-makassar {
+    font-size: 24px;
+  }
+  #container-wisata-makassar {
+    font-size: 24px;
+  }
+  #container-pic-makassar {
+    display: flex;
+    align-items: center;
+  }
+  #makassar1 {
+    height: 15rem;
+  }
+  #makassar2 {
+    height: 20rem;
+  }
+  #makassar3 {
+    height: 20rem;
+  }
+  svg {
+    position: absolute;
+    top: 176.5%;
+  }
+
+  #svg-top {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  #container-desc-makassar {
+    font-size: 12px;
+  }
+  #container-desc-makassar h2 {
+    font-size: 24px;
+  }
+  #container-wisata-makassar {
+    font-size: 12px;
+  }
+  #makassar1 {
+    height: 10rem;
+  }
+  #makassar2 {
+    height: 10rem;
+  }
+  #makassar3 {
+    height: 10rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tags a {
+    width: 80px;
+  }
+  .welcome-body {
+    background-position: center;
+  }
+  .welcome-body h1 {
+    font-size: 30px;
+  }
+  .welcome-body h2 {
+    font-size: 24px;
+  }
+  #makassar {
+    flex-direction: column;
+    justify-content: center;
+    height: 250vh;
+  }
+  #container-desc-makassar {
+    font-size: 14px;
+  }
+  #container-desc-makassar h2 {
+    font-size: 24px;
+  }
+  #container-wisata-makassar {
+    font-size: 14px;
+  }
+  #makassar1 {
+    height: 12rem;
+  }
+  #makassar2 {
+    height: 12rem;
+  }
+  #makassar3 {
+    height: 12rem;
+  }
+  #makassar-wrapper {
+    width: 75%;
+    padding: 0;
+  }
+  #container-pic-makassar {
+    margin: 0 auto;
+    padding-right: 0;
+  }
+  #container-pic-makassar img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 1rem;
+  }
+  #svg-bot {
+    top: 313.3%;
+  }
+  .footer-logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 670px) {
+  nav {
+    display: none;
+  }
+  .welcome-body {
+    background-position: center;
+    flex-direction: column;
+  }
+  .welcome-body h1 {
+    font-size: 24px;
+    padding: 8rem 0 0 0;
+  }
+  .welcome-body h2 {
+    font-size: 16px;
+    padding: 0 0 10rem 0;
+    text-align: center;
+  }
+  #makassar {
+    height: 200vh;
+  }
+  #svg-bot {
+    top: 337.6%;
+  }
+  #makassar1 {
+    height: 10rem;
+  }
+  #makassar2 {
+    height: 10rem;
+  }
+  #makassar3 {
+    height: 10rem;
+  }
+  .footer-logo {
+    font-size: 20px;
+  }
+  .footer {
+    padding: 40px 10px 40px 10px;
+  }
+}
